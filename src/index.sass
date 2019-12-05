@@ -1,0 +1,121 @@
+body
+  margin: 0px
+  padding: 10px
+  font-family: 'Bangers', cursive
+  color: #0F4C81
+  background-color: #f6fff0
+button
+  padding: 0
+  border: none
+  font: inherit
+  color: inherit
+  background-color: transparent
+  cursor: pointer
+.games-number, .sort-buttons, .categories
+  display: flex
+  justify-content: flex-start
+  font-size: 16px
+  min-height: 30px
+  margin: 12px 20px
+  flex-wrap: wrap
+  div
+    margin-left: 10px
+  button, .per-btn
+    margin-left: 10px
+    border-radius: 20px
+    background-color: #0F4C81
+    color: #ccff00
+    padding: 3px
+    min-width: 30px
+    &:hover
+      color: #FFB400
+  .active-per-btn
+    color: #FFB400
+.categories
+  font-size: 12px
+  button:last-child
+    margin-left: auto
+.games
+  display: flex
+  flex-wrap: wrap
+  justify-content: center
+  align-content: flex-start
+  min-height: 70vh
+.game-card, .game-card-fav
+  min-width: 255px
+  height: 115px
+  border: solid 1px #0F4C81
+  border-radius: 10px
+  background-color: #0F4C81
+  color: #ccff00
+  margin: 1px
+  padding: 2px 4px
+  font-size: 12px
+  button
+    padding: 4px
+    margin-left: 15px
+    background-color: #ccff00
+    color: #0F4C81
+    border-radius: 10px
+    font-size: 16px
+    margin-top: 65px
+    &:hover
+      background-color: #ccff00
+      color: #330033
+.game-card-fav
+  box-shadow: inset 4px 4px 90px -9px rgba(153,153,0,1)
+  border: solid 1px rgba(153,153,0,1)
+.search-buttons
+  display: flex
+  justify-content: flex-start
+  margin-top: 10px
+  margin-left: 20px
+  flex-wrap: wrap
+  .active-btn, .s-btn
+    background-color: #0F4C81
+    border: 1px solid #330033
+    border-radius: 30px
+    min-width: 20px
+    min-height: 20px
+    color: #ccff00
+  .active-btn
+    background-color: #ccff00
+    color: #0F4C81
+    border: 1px solid red
+.loading
+  position: fixed
+  top: 0
+  left: 0
+  width: 100%
+  height: 100%
+  background-color: #ccff00
+  display: flex
+  justify-content: center
+  align-items: center
+  font-size: 24px
+img
+  width: 100px
+  border-radius: 10px
+  padding-top: 5px
+  display: inline-block
+  box-sizing: border-box
+.merch
+  border: solid 1px #0F4C81
+  font-size: 14px
+  width: 300px
+  min-height: 100px
+  padding: 5px
+  margin: 1px
+  background-color: #FFF
+  span
+    color: #330033
+    font-weight: bold
+    text-decoration: underline
+.stats
+  display: flex
+  justify-content: center
+  flex-wrap: wrap
+  font-size: 12px
+  div
+    display: inline
+    margin: 0px 20px
