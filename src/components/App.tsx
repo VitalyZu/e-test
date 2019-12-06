@@ -256,7 +256,7 @@ class App extends React.Component<{}, State> {
                         })}
                     </div>
                     <div className='stats'>
-                        <div>Games in category: {this.state.gamesInCategory().length}</div>
+                        {(this.state.categoryId !='m')?<div>Games in category: {this.state.gamesInCategory().length}</div>:null}
                         <div>You have {this.state.favoriteBase.length} favorite games</div>
                     </div>
                     <div className='games'>
